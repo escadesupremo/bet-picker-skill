@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: setup-interview
+expected_outcome: |
+  The user asks to set up their rules. If a rules file is already in use, the reply says where it is
+  and asks whether to change it or start again; otherwise it introduces the skill and offers the ways
+  to start (questions, an example rule set, pasting notes). Either way it then stops. It doesn't write
+  or overwrite a rules file before the user answers, and does no web research.

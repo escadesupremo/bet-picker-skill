@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: one-game-passes
+expected_outcome: |
+  Only Lazio v Cagliari passes (Liverpool v Brentford: Brentford not a relegation team;
+  Milan 2.10 too high; Bournemouth not on the list). The reply is a table with that one row.
+context:
+  scaffold_script: place-files.sh

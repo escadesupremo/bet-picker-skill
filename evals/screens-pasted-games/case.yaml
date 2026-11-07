@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: screens-pasted-games
+expected_outcome: |
+  Games are listed, so it doesn't ask for dates. Uses the user's data even where the web
+  disagrees. Arsenal fails on odds, PSG v Lens because Lens are 3rd (a contender), Benfica on
+  the Europa League game 2 days before (Benfica isn't exempt), Napoli isn't on the list. Bayern 1.33, Celtic 1.48, Inter 1.42
+  and Chiefs 1.45 pass. Replies with only a table of those four.
+context:
+  scaffold_script: place-files.sh

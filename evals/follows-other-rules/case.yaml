@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: follows-other-rules
+expected_outcome: |
+  The user points the skill at a different, simpler rules file: Premier League and La Liga home
+  teams in the top 6 against the bottom 6, odds 1.30 to 1.60, dropped if the home team lost its
+  last game. Only Arsenal and Brighton pass. Chelsea lost its last game, Barcelona is away,
+  Villarreal's 1.65 is too high, and the rules don't cover the Bundesliga or the NFL. Nothing from
+  the skill's own rules.md or team sheet leaks in.
+context:
+  scaffold_script: place-files.sh

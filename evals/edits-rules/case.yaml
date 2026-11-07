@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: edits-rules
+expected_outcome: |
+  The user's rules file (a copy of examples/euro-favourites.md) gets Ajax and PSV as Netherlands rows
+  in its Team list, with the role Pick. Everything else in the file stays as it was. The run checks
+  the file with scripts/check_rules.py, shows what changed and doesn't start an analysis.
+context:
+  scaffold_script: place-files.sh

@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: form-rule
+expected_outcome: |
+  Games are listed, so it doesn't ask for dates. Form is judged on the pick only: at least
+  2 wins and at most 2 losses in the last 5. Hajduk passes even though Gorica lost only once
+  (1 win, 6 points). Bayern passes even though Augsburg are in good form. Benfica is dropped:
+  1 win and 5 points in its last 5. Replies with only a table of Hajduk and Bayern, each
+  giving both teams' last-5 records.
+context:
+  scaffold_script: place-files.sh
